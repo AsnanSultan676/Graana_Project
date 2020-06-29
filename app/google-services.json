@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "948622055199",
+    "firebase_url": "https://graana-afae9.firebaseio.com",
+    "project_id": "graana-afae9",
+    "storage_bucket": "graana-afae9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948622055199:android:376a85efb7d4165db0422a",
+        "android_client_info": {
+          "package_name": "com.example.graana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948622055199-irn8r62b8ao6ru0choq7idcmdu1vvn2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.graana",
+            "certificate_hash": "934bcc4ddc8441bdaad512203c6042fa9e7b4106"
+          }
+        },
+        {
+          "client_id": "948622055199-fctmh6l5usv72b5bke3r06al452orf0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-VB_vUQYW9q8Ehpf3zqjK6rlJDP-luI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948622055199-fctmh6l5usv72b5bke3r06al452orf0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

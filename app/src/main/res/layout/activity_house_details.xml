@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HouseDetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+        <ImageView
+            android:onClick="BackIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graana"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/browser_actions_bg_grey"
+            android:textSize="32sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.graana.Fragments.HouseImageViewFragment"
+        android:layout_width="330dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        tools:layout="@layout/fragment_house_image_view" />
+
+
+    <TextView
+        android:id="@+id/tvDetailOwnerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_marginLeft="30dp"
+        android:text="OwnerName"/>
+        <TextView
+            android:id="@+id/tvDetailRent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:layout_marginLeft="30dp"
+            android:text="Rent              "/>
+    <TextView
+        android:id="@+id/tvDetailCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_marginLeft="30dp"
+        android:text="Category      "/>
+
+    <TextView
+        android:id="@+id/tvDetailBat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_marginLeft="30dp"
+        android:text="Bad               "/>
+        <TextView
+            android:id="@+id/tvDetailBath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:text="Bath             "
+            android:layout_marginLeft="30dp"/>
+
+
+
+        <ImageView
+            android:onClick="Call"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_call"
+            android:layout_marginLeft="150dp"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="114dp"
+        android:src="@drawable/house_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvHouseLayout_HouseOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"/>
+
+        <TextView
+            android:id="@+id/tvHouseLayout_HouseAddress"
+            android:layout_width="179dp"
+            android:layout_height="40dp"
+            android:text="Location/Address" />
+        <TextView
+            android:id="@+id/tvHouseLayout_HouseRent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rent"/>
+        <TextView
+            android:id="@+id/tvHouseLayout_HouseOwnerNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"/>
+
+    </LinearLayout>
+
+</LinearLayout>
